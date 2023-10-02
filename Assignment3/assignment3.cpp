@@ -62,7 +62,7 @@ bool RG::Homework2::assignment3()
 
     // Kutsuge funktsiooni funk5 
     // ja salvestage tulemus muutujasse a1
-    int a1{  };
+    int a1{ /*funktsioon()*/ };
     // Kutsuge funktsiooni sum argumentidega 3, 2 
     // ja salvestage tulemus muutujasse a2
     int a2{  };
