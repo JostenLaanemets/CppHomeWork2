@@ -10,15 +10,15 @@ bool RG::Homework2::assignment2()
     using namespace std::literals;
     int i{ 3 };
     // Looge const int muutuja ci väärtusega 5
-
+    int const ci{5};
     // Looge constexpr int muutuja cxpi väärtusega 4
-
+    int constexpr cxpi{4};
     // Looge const int pointer muutuja cip väärtusega ci
-
+    int const *cip=&ci;
     // Looge int pointer const muutuja ipc väärtusega i
-
+    int const *ipc=&i;
     // Looge const int pointer const muutuja cipc väärtusega ci
-
+    const int *const cipc = &ci;
 
     // Kontroll, et muutujad on õiget tüüpi ja väärtusega
     return (typeid(ci) == typeid(const int))
